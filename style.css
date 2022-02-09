@@ -1,4 +1,4 @@
-/* Generated on: Wed Feb 09 2022 02:17:52 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Wed Feb 09 2022 06:35:54 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -51,7 +51,7 @@
      height: 100vw;
    }
    
-   .background-video-2 {
+   .mainvideo {
      display: -webkit-box;
      display: -webkit-flex;
      display: -ms-flexbox;
@@ -79,7 +79,7 @@
      -webkit-text-fill-color: inherit;
    }
    
-   .div-block {
+   .tittlescreen {
      display: -webkit-box;
      display: -webkit-flex;
      display: -ms-flexbox;
@@ -109,7 +109,7 @@
      grid-template-rows: auto auto;
    }
    
-   .grey-section {
+   .greysection {
      display: -webkit-box;
      display: -webkit-flex;
      display: -ms-flexbox;
@@ -148,15 +148,17 @@
      line-height: 80px;
    }
    
-   .sectionwrap {
+   .information {
      overflow: hidden;
      width: 100%;
    }
    
-   .heading {
+   .infoheading {
+     margin-top: 4%;
+     margin-left: 4%;
      font-family: Impact, Haettenschweiler, 'Franklin Gothic Bold', Charcoal, sans-serif;
      color: #c5c3c6;
-     font-size: 771%;
+     font-size: 657%;
      line-height: 100%;
      font-style: italic;
      letter-spacing: 4px;
@@ -165,13 +167,13 @@
      white-space: normal;
    }
    
-   .text-span {
+   .info-slashes {
      color: #46494c;
      font-style: italic;
      text-shadow: 1px 1px 6px #dcdcdd;
    }
    
-   .div-block-2 {
+   .infobody {
      display: -webkit-box;
      display: -webkit-flex;
      display: -ms-flexbox;
@@ -194,7 +196,7 @@
      align-items: flex-start;
    }
    
-   .paragraph {
+   .infotext {
      position: relative;
      z-index: 2;
      height: auto;
@@ -214,23 +216,23 @@
      color: #f14a18;
    }
    
-   .text-span-3 {
+   .info-forge2 {
      color: #ff897c;
    }
    
-   .text-span-4 {
+   .numofkatas {
      color: #47d4ff;
    }
    
-   .text-span-5 {
+   .numoftraits {
      color: #47d4ff;
    }
    
-   .text-span-6 {
+   .info-forge {
      color: #ff897c;
    }
    
-   .section {
+   .theforge {
      display: -webkit-box;
      display: -webkit-flex;
      display: -ms-flexbox;
@@ -256,7 +258,7 @@
      object-fit: contain;
    }
    
-   .div-block-3 {
+   .transition {
      position: relative;
      z-index: 1;
      height: 10vh;
@@ -281,7 +283,7 @@
      background-color: #dcdcdd;
    }
    
-   .heading-2 {
+   .mainname {
      position: absolute;
      left: auto;
      top: 45%;
@@ -409,7 +411,7 @@
      background-color: #c5c3c6;
    }
    
-   .text-span-7 {
+   .mainname-identity {
      border-style: none;
      border-width: 1px;
      border-color: #eb2727;
@@ -481,11 +483,11 @@
      font-family: 'Helvetica neue extended';
    }
    
-   .text-span-17 {
+   .info-the-forge {
      text-shadow: 2px 2px 6px #ff897c;
    }
    
-   .text-block {
+   .forgeheading {
      display: -webkit-box;
      display: -webkit-flex;
      display: -ms-flexbox;
@@ -691,7 +693,7 @@
      white-space: nowrap;
    }
    
-   .herotext {
+   .hero-text-1 {
      position: absolute;
      z-index: 0;
      margin-top: 25vh;
@@ -705,15 +707,22 @@
      white-space: nowrap;
    }
    
-   .herotext.bottom {
+   .hero-text-1.bottom {
      margin-top: 10vh;
    }
    
-   .herotext._2 {
+   .hero-text-1._2 {
      margin-top: 37vh;
    }
    
-   .image {
+   .hero-text-1.top {
+     z-index: 2;
+     margin-top: 10vh;
+     opacity: 0.2;
+     color: #000;
+   }
+   
+   .forgeimagepink {
      position: absolute;
      left: 15%;
      right: 15%;
@@ -827,7 +836,7 @@
    }
    
    .countdown-time {
-     font-family: 'Changa One', Impact, sans-serif;
+     font-family: Montserrat, sans-serif;
      color: #dcdcdd;
      font-size: 90px;
      line-height: 120px;
@@ -857,10 +866,10 @@
    }
    
    .countdown-detail {
-     font-family: 'Changa One', Impact, sans-serif;
+     font-family: Montserrat, sans-serif;
      color: #c5c3c6;
      font-size: 20px;
-     font-weight: 700;
+     font-weight: 800;
      letter-spacing: 1px;
      text-transform: uppercase;
    }
@@ -921,20 +930,38 @@
      grid-template-columns: 1fr 1fr;
      -ms-grid-rows: auto auto;
      grid-template-rows: auto auto;
+     font-family: Tahoma, Verdana, Segoe, sans-serif;
    }
    
-   .div-block-8 {
+   .socials {
      position: fixed;
      left: auto;
      top: 0%;
      right: 0%;
      bottom: auto;
      z-index: 40;
-     width: 100px;
+     display: -webkit-box;
+     display: -webkit-flex;
+     display: -ms-flexbox;
+     display: flex;
+     width: 200px;
      height: 100px;
+     -webkit-box-orient: horizontal;
+     -webkit-box-direction: normal;
+     -webkit-flex-direction: row;
+     -ms-flex-direction: row;
+     flex-direction: row;
+     -webkit-box-pack: end;
+     -webkit-justify-content: flex-end;
+     -ms-flex-pack: end;
+     justify-content: flex-end;
+     -webkit-box-align: center;
+     -webkit-align-items: center;
+     -ms-flex-align: center;
+     align-items: center;
    }
    
-   .link-block {
+   .discord {
      position: absolute;
      left: auto;
      top: 15%;
@@ -946,6 +973,14 @@
      background-position: 0px 0px;
      background-size: cover;
      text-align: left;
+   }
+   
+   .discord.countdown {
+     position: static;
+     top: 25%;
+     right: 15%;
+     bottom: auto;
+     margin-right: 5%;
    }
    
    .text-span-18 {
@@ -962,7 +997,7 @@
      z-index: 3;
    }
    
-   .image-3 {
+   .forgeimageanvil {
      position: absolute;
      left: auto;
      z-index: 3;
@@ -1004,7 +1039,7 @@
      align-items: center;
    }
    
-   .div-block-10 {
+   .forgeimages {
      display: -webkit-box;
      display: -webkit-flex;
      display: -ms-flexbox;
@@ -1040,7 +1075,7 @@
      font-size: 55px;
    }
    
-   .herotext-2 {
+   .hero-text-2 {
      position: absolute;
      top: 466px;
      z-index: 2;
@@ -1055,16 +1090,24 @@
      white-space: nowrap;
    }
    
-   .herotext-2.bottom {
+   .hero-text-2.bottom {
      top: auto;
      margin-top: 40vh;
    }
    
-   .herotext-2._2 {
+   .hero-text-2._2 {
      margin-top: 37vh;
    }
    
-   .herotext-3 {
+   .hero-text-2.top {
+     top: 0px;
+     z-index: 4;
+     margin-top: 40vh;
+     opacity: 0.2;
+     color: #000;
+   }
+   
+   .hero-text-3 {
      position: absolute;
      z-index: 0;
      margin-top: 25vh;
@@ -1078,19 +1121,27 @@
      white-space: nowrap;
    }
    
-   .herotext-3.bottom {
+   .hero-text-3.bottom {
      margin-top: 70vh;
    }
    
-   .herotext-3._2 {
+   .hero-text-3._2 {
      margin-top: 37vh;
+   }
+   
+   .hero-text-3.top {
+     z-index: 2;
+     margin-top: 70vh;
+     opacity: 0.2;
+     color: #000;
+     mix-blend-mode: normal;
    }
    
    .div-block-11 {
      position: fixed;
    }
    
-   .div-block-12 {
+   .botscrolltext {
      position: fixed;
      left: 0%;
      top: auto;
@@ -1104,20 +1155,55 @@
      opacity: 0.66;
    }
    
-   .div-block-12._1 {
+   .botscrolltext._1 {
      left: 0%;
      top: 0%;
      right: 0%;
      bottom: auto;
    }
    
-   .scrolling-text {
+   .scrolltext {
      overflow: visible;
      width: 100%;
      font-family: Inconsolata, monospace;
      color: #dcdcdd;
      text-transform: uppercase;
      white-space: nowrap;
+   }
+   
+   .topscrolltext {
+     position: fixed;
+     left: 0%;
+     top: auto;
+     right: 0%;
+     bottom: 0%;
+     z-index: 90;
+     overflow: hidden;
+     width: 100%;
+     height: 20px;
+     background-color: #46494c;
+     opacity: 0.66;
+   }
+   
+   .topscrolltext._1 {
+     left: 0%;
+     top: 0%;
+     right: 0%;
+     bottom: auto;
+   }
+   
+   .katas {
+     text-decoration: underline;
+   }
+   
+   .link-block {
+     position: static;
+     width: 50px;
+     height: 50px;
+     margin-right: 5%;
+     background-image: url("https://uploads-ssl.webflow.com/61fda9dd3b62c41cda14aa2d/62035d1b2bd58e4b1baaf72a_twitter.png");
+     background-position: 0px 0px;
+     background-size: cover;
    }
    
    @media screen and (max-width: 991px) {
@@ -1148,7 +1234,8 @@
      }
    
      .countdown-block {
-       margin-right: 9px;
+       margin-right: -1px;
+       margin-left: 4px;
      }
    
      .countdown-outer {
@@ -1169,7 +1256,7 @@
        width: 300%;
      }
    
-     .heading {
+     .infoheading {
        font-size: 5vh;
      }
    
@@ -1305,4 +1392,3 @@
      font-style: normal;
      font-display: swap;
    }
-   
